@@ -15,7 +15,7 @@ const Map = () => {
   return (
     <div className={classes.mapContainer}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyDhqj-xzcSPvUBy3qcJM1FIwt7dANuKRiY" }}
+        bootstrapURLKeys={{ key: "AIzaSyDmEP8C0lqDJer8dl2HSi2c1WZGil2L7bs" }}
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={14}

@@ -73,8 +73,8 @@ const List = ({
             {places.map((place, i) => (
               <Grid ref={elRefs[i]} key={i} item xs={12}>
                 <PlaceDetails
-                  selected={Number(childClicked) === 1}
-                  refProp={elRefs[1]}
+                  selected={Number(childClicked) === i}
+                  refProp={elRefs[i]}
                   place={place}
                 />
               </Grid>
